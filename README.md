@@ -38,15 +38,17 @@ This is my personal portfolio website built using [Next.js](https://nextjs.org/)
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
 
-## License
+## Live Site Link
+
+- **Live Site**: []()
 
 ## Contact
 
 Feel free to reach out to me via:
 
 - **Email**: sayedzulfikar2019@gmail.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/sayed-zulfikarmahmud)
-- **GitHub**: [Your GitHub Profile](https://github.com/zulfikar2022)
+- **LinkedIn**: [ LinkedIn ](https://linkedin.com/in/sayed-zulfikarmahmud)
+- **GitHub**: [ GitHub ](https://github.com/zulfikar2022)
 
 ---
 
