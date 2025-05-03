@@ -40,7 +40,7 @@ This is my personal portfolio website built using [Next.js](https://nextjs.org/)
 
 ## Live Site Link
 
-- **Live Site**: []()
+- **Live Site**: [https://my-portfolio-gold-theta-43.vercel.app/](https://my-portfolio-gold-theta-43.vercel.app/)
 
 ## Contact
 
