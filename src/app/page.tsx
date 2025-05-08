@@ -19,7 +19,7 @@ export default function Home() {
         <div className="w-full md:flex-1">
           <AspectRatio ratio={16 / 9} className="w-full bg-muted">
             <Image
-              src="/my_photo.png"
+              src="/my_photo.jpg"
               alt="My profile picture"
               fill
               className="h-full w-full object-cover "

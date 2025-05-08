@@ -1,4 +1,4 @@
-import ProjectsShowcase from "@/components/featuredProjects/ProjectsShowcase";
+import ProjectOne from "@/components/projectDetailsShowing/Project1";
 
 export const metadata = {
   title: "MERN Mastermind | Projects",
@@ -7,7 +7,7 @@ export const metadata = {
 const ProjectPage = () => {
   return (
     <div>
-      <ProjectsShowcase />
+      <ProjectOne />
     </div>
   );
 };
