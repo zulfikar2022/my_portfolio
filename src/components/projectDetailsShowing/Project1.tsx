@@ -26,9 +26,9 @@ const ProjectOne = () => {
         <div>
           <h3 className="font-medium mb-2 text-muted-foreground">Tech Stack</h3>
           <div className="flex flex-wrap gap-2">
-            <Badge variant="outline">React 18</Badge>
+            <Badge variant="outline">React </Badge>
             <Badge variant="outline">TypeScript</Badge>
-            <Badge variant="outline">Node.js 18</Badge>
+            <Badge variant="outline">Node.js </Badge>
             <Badge variant="outline">Express</Badge>
             <Badge variant="outline">MongoDB</Badge>
             <Badge variant="outline">Mongoose</Badge>
@@ -58,26 +58,40 @@ const ProjectOne = () => {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex gap-3 pt-4">
-          <Link href="https://home-hunt-frontend.vercel.app/" target="_blank">
-            <Button size="sm">Live Demo</Button>
-          </Link>
-          <Link
-            href="https://github.com/zulfikar2022/home-hunt-frontend"
-            target="_blank"
-          >
-            <Button size="sm" variant="outline">
+        <div className=" md:w-1/2 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-3 pt-4">
+          <Button size="sm" variant="default">
+            <Link
+              href="https://home-hunt-frontend.vercel.app/"
+              className="w-fit"
+              target="_blank"
+            >
+              Live Demo
+            </Link>
+          </Button>
+
+          <Button size="sm" variant="outline">
+            <Link
+              className="w-fit"
+              href="https://github.com/zulfikar2022/home-hunt-frontend"
+              target="_blank"
+            >
               Frontend Code
-            </Button>
-          </Link>
-          <Link
-            href="https://github.com/zulfikar2022/home-hunt-backend"
-            target="_blank"
-          >
-            <Button size="sm" variant="outline">
+            </Link>
+          </Button>
+          <Button size="sm" variant="outline">
+            <Link
+              className="w-fit"
+              href="https://github.com/zulfikar2022/home-hunt-backend"
+              target="_blank"
+            >
               Backend Code
-            </Button>
-          </Link>
+            </Link>
+          </Button>
+          <Button size="sm" variant="outline">
+            <Link className="w-fit" href="/project1">
+              See Details ➡️
+            </Link>
+          </Button>
         </div>
       </CardContent>
     </Card>

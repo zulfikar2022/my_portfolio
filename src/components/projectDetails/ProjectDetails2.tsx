@@ -41,6 +41,20 @@ export default function ProjectDetails2() {
           ))}
         </div>
 
+        <h3 className="text-lg font-semibold">Technologies Used</h3>
+        <ul className="list-disc pl-4 text-sm text-muted-foreground">
+          <li>React</li>
+          <li>Typescript</li>
+          <li>Express</li>
+          <li>Ant Design</li>
+          <li>React Router Dom</li>
+          <li>Mongodb</li>
+          <li>Mongoose</li>
+          <li>JWT</li>
+          <li>Shurjopay</li>
+        </ul>
+
+        <h3 className="text-lg font-semibold">Features</h3>
         <ul className="list-disc pl-4 text-sm text-muted-foreground">
           <li>User auth with JWT.</li>
           <li> Add to cart & place orders.</li>
@@ -48,6 +62,10 @@ export default function ProjectDetails2() {
           <li>Responsive UI with Tailwind CSS</li>
           <li>Cloudinary for image hosting</li>
           <li>Shurjopay as payment gateway integrated.</li>
+        </ul>
+
+        <h3 className="text-lg font-semibold">Links</h3>
+        <ul className="list-disc pl-4 text-sm text-muted-foreground">
           <li className="">
             Live Site:{" "}
             <Link

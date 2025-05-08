@@ -42,6 +42,22 @@ export default function ProjectDetails1() {
           ))}
         </div>
 
+        {/* Technologies Used Section */}
+        <div>
+          <h3 className="text-lg font-semibold">Technologies Used</h3>
+          <ul className="list-disc pl-4 text-sm text-muted-foreground">
+            <li>React</li>
+            <li>Next.js</li>
+            <li>TypeScript</li>
+            <li>Tailwind CSS</li>
+            <li>Shadcn/ui</li>
+            <li>Stripe</li>
+            <li>Node.js</li>
+            <li>Express</li>
+          </ul>
+        </div>
+
+        <h3 className="text-lg font-semibold">Features</h3>
         <ul className="list-disc pl-4 text-sm text-muted-foreground">
           <li>Post rental properties with images and detailed information.</li>
           <li> Search for homes by location, price, and bedrooms.</li>
@@ -57,6 +73,10 @@ export default function ProjectDetails1() {
           <li>
             Stripe integration allows tenants to complete payments securely.
           </li>
+        </ul>
+
+        <h3 className="text-lg font-semibold">Links</h3>
+        <ul className="list-disc pl-4 text-sm text-muted-foreground">
           <li className="">
             Live Site:{" "}
             <Link

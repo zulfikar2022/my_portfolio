@@ -58,6 +58,12 @@ const ProjectDetails3 = () => {
               >
                 https://venerable-halva-459ef0.netlify.app/
               </Link>
+              <Link
+                className="underline"
+                href="https://github.com/zulfikar2022/animalto-toyasium"
+              >
+                https://github.com/zulfikar2022/animalto-toyasium
+              </Link>
             </li>
           </ul>
         </CardContent>
