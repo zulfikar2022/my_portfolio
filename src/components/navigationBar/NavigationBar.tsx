@@ -20,7 +20,7 @@ export default function NavigationBar() {
   console.log(pathname);
 
   return (
-    <nav className="w-full flex justify-between items-center p-4 shadow-md">
+    <nav className="w-full flex justify-between items-center p-4  sticky top-0 bg-white dark:bg-[#020817] z-10">
       {/* Logo */}
       <div className="text-xl font-bold">
         <Image

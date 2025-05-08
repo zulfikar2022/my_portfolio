@@ -43,12 +43,26 @@ const ProjectDetails3 = () => {
             ))}
           </div>
 
+          <h3 className="text-lg font-semibold">Technologies Used</h3>
+          <ul className="list-disc pl-4 text-sm text-muted-foreground">
+            <li>React</li>
+            <li>Javascript</li>
+            <li>Express</li>
+            <li>React Router Dom</li>
+            <li>Mongodb</li>
+            <li>Firebase</li>
+          </ul>
+          <h3 className="text-lg font-semibold">Features</h3>
           <ul className="list-disc pl-4 text-sm text-muted-foreground">
             <li>Post new toys with photo and detailed information.</li>
             <li> Mobile responsive UI.</li>
             <li>Imagebb used for image hosting.</li>
             <li>Responsive UI with Tailwind CSS</li>
             <li>Users can add there products to the website</li>
+          </ul>
+
+          <h3 className="text-lg font-semibold">Links</h3>
+          <ul className="list-disc pl-4 text-sm text-muted-foreground">
             <li>
               {" "}
               Live Site:{" "}
@@ -58,6 +72,10 @@ const ProjectDetails3 = () => {
               >
                 https://venerable-halva-459ef0.netlify.app/
               </Link>
+            </li>
+            <li>
+              {" "}
+              Client Code:{" "}
               <Link
                 className="underline"
                 href="https://github.com/zulfikar2022/animalto-toyasium"
